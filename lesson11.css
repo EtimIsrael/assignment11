@@ -1,0 +1,111 @@
+body{
+  background-color: black;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.grid-a{
+  background-color: lightblue;
+}
+.grid-b{
+  background-color: lightpink;
+}
+
+.grid-i{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-top: 20px;
+}
+.grid-c{
+  background-color: lightblue;
+}
+.grid-d{
+  background-color: lightpink;
+}
+
+.grid-j{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.grid-e{
+  background-color: lightpink;
+}
+
+.grid-k{
+  font-family: Arial;
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap: 20px;
+}
+.recreate-div{
+  background-color: rgb(212, 203, 203);
+  width: 170px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.trumpet{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.otu{
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.cornet{
+  width: 150px;
+  height: 150px;
+}
+.john{
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.clarinet{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.moses{
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.mutual-friends{
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+}
+.mutual{
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+}
+.add-button{
+  background-color: rgb(24, 119, 242);
+  border: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  width: 90px;
+  margin-top: 5px;
+}
+.mutual-row{
+  display: grid;
+  grid-template-columns: 33px 1fr;
+  align-items: center;
+}
